@@ -45,10 +45,10 @@ export default () => {
   return (
     <div>
       <List renderHeader={() => '提交作业'}>
-        <InputItem placeholder="学号" labelNumber={2}>
+        <InputItem placeholder="请填写学号(只需填写后三位)" labelNumber={4}>
           学号
         </InputItem>
-        <InputItem placeholder="姓名" labelNumber={2}>
+        <InputItem placeholder="请填写姓名" labelNumber={4}>
           姓名
         </InputItem>
         <Picker
